@@ -9,7 +9,7 @@ import axios from 'axios';
     const searchBook =(evt)=>{
         if(evt.key==='Enter')
         {
-           axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyD6qEXiI9ZhGD3osXVMPOdIapy2Urd70XE'+'&maxResults=40')
+           axios.get('Add your Api Link')
             .then(res=>setData(res.data.items))
             .catch(err=>console.log(err))
         
